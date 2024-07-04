@@ -13,7 +13,7 @@ def parse_input(type):
                        " in pixels of each sample: ")
         try:
             val = int(number)
-            if val < 0:
+            if val <= 0:
                 print("Error: input must be a positive integer.")
                 continue
             break
